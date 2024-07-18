@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: baseline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+input{
+    border: 1px solid #f00;
+    color: #f00;
+}
+
+body{
+    font-family:"NanumGothic","맑은 고딕", "sans-serif";
+    background: url(../images/s_images/body_bg.png);
+}
+/* 웹폰트 css 만들기 */
+
+@font-face {
+    font-family:"NanumGothic";
+    src: url(../webfont/NanumGothic.woff);
+}
