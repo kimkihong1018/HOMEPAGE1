@@ -219,6 +219,11 @@ span.next_btn{
     order: 7;
 }
 
+.rankup_section h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .rankup_list{
     display: flex;
     flex-wrap: wrap;
@@ -226,6 +231,7 @@ span.next_btn{
 }
 .rankup_list li{
     width: 48%;
+    margin-bottom: 15px;
 }
 
 .rankup_list li a{

@@ -63,7 +63,9 @@
     width: 100%;
 }
 
-.gmb{}
+.gmb{
+    display: none;
+}
 
 .gmb li{
     display: flex;
